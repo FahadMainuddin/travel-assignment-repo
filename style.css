@@ -2,11 +2,19 @@
 <style>
 @import url('https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,700;1,700&display=swap')
 </style>
+/*shared styles*/
 *{
     font-family: "Mulish", sans-serif;
     font-weight: 700px;
     font-style: normal;
 
+}
+.btn-primary{
+    width: 120px;
+    height: 40px;
+    border-radius: 8px;
+    color: #FFF;
+    background-color:  #FF5400;
 }
 
 /*header-related styles*/
@@ -90,33 +98,158 @@ background-blend-mode: saturation;
     
 }
 div > input{
-    display: flex;
+    
     align-items: center;
+    width: 120px;
+    height: 40px;
+    border-radius: 8px;
+    background: #FFF;
+    padding: 5px;
+    margin-bottom: 5px;
+    color: rgba(19, 19, 24, 0.50);
+
+text-align: center;
 }
+.selector{
+    align-items: center;
+    width: 120px;
+    height: 40px;
+    border-radius: 8px; 
+    background: #FFF;
+padding: 5px;
+margin-bottom: 5px;
+color: rgba(19, 19, 24, 0.50);
+}
+
+
 /* 3rd part related styles*/
 .popular{
     display: flex;
     justify-content: space-between;
     padding: 100px;
+    margin-right: 20px;
+    width: 80%;
+    margin: 0 auto;
     
 }
 .popular-image{
     width: 540px;
     height: 550px;
     border-radius: 16px;
+    margin-left: 10px;
    
 background: lightgray 50% / cover no-repeat;
 }
 .popular-items > h3{
     color: #131318;
     font-size: 40px;
-    
+    margin-right: 250px;
 }
 .popular-items > p{
     color: rgba(19, 19, 24, 0.70);
     font-size: 15px;
+    margin-right: 50px;
 
 }
+div ul li{
+    color: rgba(19, 19, 24, 0.70);
+    font-size: 15px;
+    margin-right: 120px;
+}
 
+/* Destination related styles*/
+
+div > .destination-heading{
+    text-align: center;
+    
+}
+.destination-tittle{
+    color: #131318;
+    font-size: 40px;
+
+}
+.destination-paragraph{
+    color: rgba(19, 19, 24, 0.70);
+    font-size: 16px;
+    width: 643px;
+    margin-left: 28%;
+}
+
+.country-1{
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+    
+    gap: 24px;
+    
+    font-size: 28px;
+    align-items: center;
+    color: #FFF;
+    padding: 130 220 130 220;
+    width: 80%;
+    margin: 0 auto;
+
+    
+}
+.maldives{
+    background-image: url(Images/Rectangle\ 5.png);
+    background-repeat: no-repeat;
+    width: 50%;
+ 
+    height: 300px;
+    border-radius: 16px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.indonesia{
+    background-image: url(Images/Rectangle\ 8.png);
+    background-repeat: no-repeat;
+    width: 50%;
+    height: 300px;
+    border-radius: 16px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+
+}
+.country-2{
+    display: flex;
+    justify-content: space-around;
+    width: 80%;
+    margin: 0 auto;
+    margin-top: 20px;
+    border-radius: 16px;
+    
+
+}
+.Srilanka{
+    width: 365px;
+    height: 300px;
+    gap: 20px;
+}
+.North-america{
+    width: 450px;
+    height: 300px;
+    gap: 20px;
+}
+.kashmir{
+    width: 250px;
+    height: 300px;
+    gap: 20px;
+}
+.country-3{
+
+}
+.Bangladesh{
+    background-image: url(Images/Rectangle\ 11.png);
+    background-repeat: no-repeat;
+}
+.Bandarban{
+    background-image: url(Images/Rectangle\ 10.png);
+    background-repeat: no-repeat;
+}
 
 
