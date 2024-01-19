@@ -150,6 +150,10 @@ background: lightgray 50% / cover no-repeat;
     font-size: 15px;
     margin-right: 50px;
 
+
+}
+.popular-descripion{
+    margin: 0 auto;
 }
 div ul li{
     color: rgba(19, 19, 24, 0.70);
@@ -233,7 +237,7 @@ div > .destination-heading{
 .North-america{
     width: 450px;
     height: 300px;
-    gap: 20px;
+    
 }
 .kashmir{
     width: 250px;
@@ -241,15 +245,75 @@ div > .destination-heading{
     gap: 20px;
 }
 .country-3{
+    display: flex;
+    justify-content: space-around;
+    width: 80%;
+    margin: 0 auto;
+    margin-top: 20px;
+    border-radius: 16px;
 
 }
-.Bangladesh{
-    background-image: url(Images/Rectangle\ 11.png);
-    background-repeat: no-repeat;
+.bangladesh{
+    width: 450px;
+    gap: 20px;
+    height: 300px;
+    
 }
-.Bandarban{
-    background-image: url(Images/Rectangle\ 10.png);
-    background-repeat: no-repeat;
+.bandarban{
+    height: 300px;
+    width: 650;
+}
+/*personal section related styles*/
+
+div{
+    text-align: center;
+    
+    
+
+    
 }
 
+div > h2{
+    color: #131318;
+     font-size: 40px;
 
+}
+div p{
+    color: rgba(19, 19, 24, 0.70);
+    width: 350px;
+    font-size: 20px;
+   margin-left: 400px;
+
+.facilities{
+    display: flex;
+    
+}
+}
+ .facilities-service{
+    border: 2px solid saddlebrown;
+    margin: 0 auto;
+    text-align: left;
+    margin-right: 10px;
+
+
+    
+
+}
+.facilities-image{
+    width: 50px;
+    height: 50px;
+    padding: 10px;
+    margin-right: 10px;
+}
+.facilities-details{
+    text-align: left;
+}
+
+.facilities-service-2{
+    border: 2px solid orange;
+    text-align: left;
+}
+.facilities-image-2{
+    width: 50px;
+    height: 50px;
+}
